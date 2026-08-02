@@ -1,0 +1,13 @@
+[project]
+name = "CCN2026_SSM-tutorial"
+version = "0.1.0"
+description = "Putting Dynamics First: State-Space Modelling for Human Neuroscience"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dynamax>=1.0.2",
+    "ipython>=9.15.0",
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.6.2",
+    "matplotlib>=3.11.0",
+]
