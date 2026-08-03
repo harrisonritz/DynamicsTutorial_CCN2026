@@ -41,8 +41,7 @@ notebook below; the badge always opens a Python runtime by default.
 
    > **Run the setup cells early.** Notebook 3 precompiles a sizeable Julia environment (several
    > minutes on a fresh Colab runtime) and downloads ~13 MB of assets — the parcellated HCP tensors,
-   > the Schaefer-100/17 atlas, and the fsLR-32k surfaces — into `derivatives/`. Conference wifi is
-   > not the moment to discover this.
+   > the Schaefer-100/17 atlas, and the fsLR-32k surfaces — into `derivatives/`.
 
 ## Running locally
 
