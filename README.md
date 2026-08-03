@@ -112,11 +112,24 @@ Neuroscience at Washington University. Use of these derivatives is subject to th
 [HCP Open Access Data Use Terms](https://www.humanconnectome.org/study/hcp-young-adult/document/wu-minn-hcp-consortium-open-access-data-use-terms).
 
 ## Further reading
+### First Steps
+Start with [Murphy (2023) ProbML2](https://probml.github.io/pml-book/book2.html), Ch. 29, 8. An open-source PDF is available on his website.
 
+### Packages
 - [dynamax](https://probml.github.io/dynamax/) — JAX state-space models (notebooks 01–02)
-- [MARSS](https://atsa-es.github.io/MARSS/) — multivariate autoregressive state-space models in R
-- [StateSpaceDynamics.jl](https://github.com/depasquale-lab/StateSpaceDynamics.jl) — SSMs in Julia
-- Murphy, *Probabilistic Machine Learning: Advanced Topics* (2023), ch. 8–9 — inference and learning in SSMs
+- [MARSS](https://atsa-es.github.io/MARSS/) — multivariate autoregressive state-space models in R (notebook 01_*R)
+- [StateSpaceDynamics.jl](https://github.com/depasquale-lab/StateSpaceDynamics.jl) — SSMs in Julia (notebook 03)
+### Papers
+- [Roweis, S., & Ghahramani, Z. (1999). A unifying review of linear gaussian models. Neural Computation, 11(2), 305–345.](https://doi.org/10.1162/089976699300016674)
+- [Ghahramani, Z., Rey, G., & Hinton, E. (1996). Parameter Estimation for Linear Dynamical Systems.](https://www.cs.utoronto.ca/~hinton/absps/tr-96-2.pdf)
+- [Zoltowski, D., Pillow, J., & Linderman, S. (2020). A general recurrent state space framework for modeling neural dynamics during decision-making. International Conference on Machine Learning, 11680–11691.](https://proceedings.mlr.press/v119/zoltowski20a.html)
+- [Valente, A., Ostojic, S., & Pillow, J. (2021). Probing the relationship between linear dynamical systems and low-rank recurrent neural network models. In arXiv [q-bio.NC]. arXiv.](https://doi.org/10.48550/arXiv.2110.09804)
+- [Holmes, E. E. (2013). Derivation of an EM algorithm for constrained and unconstrained multivariate autoregressive state-space (MARSS) models. In arXiv [stat.ME]. arXiv.](https://arxiv.org/abs/1302.3919)
+### Books
+- [Murphy (2023), *Probabilistic Machine Learning: Advanced Topics*. MIT Press.](https://probml.github.io/pml-book/book2.html), Ch. 8, 29
+- [Simo Sarkka (2013). *Bayesian Filtering and Smoothing*. Cambridge University Press.](https://users.aalto.fi/~ssarkka/pub/cup_book_online_20131111.pdf)
+
+
 
 ## License, citation, and contact
 
