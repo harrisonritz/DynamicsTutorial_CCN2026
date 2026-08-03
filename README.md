@@ -1,6 +1,8 @@
 # Putting Dynamics First: State-Space Modelling for Human Neuroscience
 Materials for the CCN2026 Tutorial (New York)
 
+### [Slides](https://github.com/harrisonritz/DynamicsTutorial_CCN2026/blob/main/2026_CCN-tutorial.pdf) 
+
 ### There are 3 core notebooks, which can be run on Google Colab (with a Google account):
 1. [01] introduction to Kalman Filtering (dynamax/python) <a href="https://colab.research.google.com/github/harrisonritz/DynamicsTutorial_CCN2026/blob/main/01_kalman_filter_information_form.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
