@@ -1,12 +1,28 @@
 # Putting Dynamics First: State-Space Modelling for Human Neuroscience
-Tutorial materials for a Keynote&Tutorial at CCN2026 (New York).
+Materials for the CCN2026 Tutorial (New York)
 
-There are 3 core notebooks:
-1. [02] introduction to Kalman Filtering (dynamax/python)
-2. [02] fitting LDS models to synthetic data (dynamax/python)
-2. [02*_R] same as 02, in R (MARSS/R)
-3. [03] fitting SLDS models to HCP data (StateSpaceDynamics.jl/julia)
+### There are 3 core notebooks, which can be run on Google Colab (with a Google account):
+1. [01] introduction to Kalman Filtering (dynamax/python) <a href="https://colab.research.google.com/github/harrisonritz/CCN2026_SSM-tutorial/blob/main/01_kalman_filter_information_form.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-To run locally:
-- the python environment is managed using uv ([install](https://docs.astral.sh/uv/getting-started/installation/); from a terminal at the folder: `uv sync`)
-- the julia environment is managed by the julia package manager ([install](https://julialang.org/downloads/); from a terminal at the folder: start julia: `julia`, switch to package manager:  `]`, setup package: `instantiate .`) 
+2. [02] fitting LDS models to synthetic data (dynamax/python <a href="https://colab.research.google.com/github/harrisonritz/CCN2026_SSM-tutorial/blob/main/02_lds_parameter_recovery.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+or MARSS/R <a href="https://colab.research.google.com/github/harrisonritz/CCN2026_SSM-tutorial/blob/main/02_lds_parameter_recovery_R.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>)
+  
+4. [03] fitting SLDS models to HCP data (StateSpaceDynamics.jl/Julia) <a href="https://colab.research.google.com/github/harrisonritz/CCN2026_SSM-tutorial/blob/main/03_switching_lds_fmri_hcp.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### To run these notebooks locally:
+- clone the repo:
+    ```sh
+    git clone https://github.com/harrisonritz/CCN2026_SSM-tutorial.git
+    cd CCN2026_SSM-tutorial
+    ```
+- the python environment is managed using `uv` 
+  - [install uv](https://docs.astral.sh/uv/getting-started/installation/)
+  - install environment: from a terminal at the repo folder: `uv sync`
+- the Julia environment is managed by the Julia package manager 
+  - [install julia](https://julialang.org/downloads/)
+  - install environment: from a terminal at the repo folder:
+    ```zsh
+    julia           # start Julia
+    ]               # switch to package manager
+    instantiate     # install packages
+    ```
