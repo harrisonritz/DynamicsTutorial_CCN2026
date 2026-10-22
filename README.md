@@ -117,7 +117,7 @@ Start with [Murphy (2023) ProbML2](https://probml.github.io/pml-book/book2.html)
 
 ### Packages
 - [dynamax](https://probml.github.io/dynamax/) — JAX state-space models (notebooks 01–02)
-- [MARSS](https://atsa-es.github.io/MARSS/) — multivariate autoregressive state-space models in R (notebook 01_*R)
+- [MARSS](https://atsa-es.github.io/MARSS/) — multivariate autoregressive state-space models in R (notebook 02_R)
 - [StateSpaceDynamics.jl](https://github.com/depasquale-lab/StateSpaceDynamics.jl) — SSMs in Julia (notebook 03)
 ### Papers
 - [Roweis, S., & Ghahramani, Z. (1999). A unifying review of linear gaussian models. Neural Computation, 11(2), 305–345.](https://doi.org/10.1162/089976699300016674)
